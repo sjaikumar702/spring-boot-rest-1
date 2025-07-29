@@ -1,3 +1,4 @@
+/*
 package com.jks.springbootrest1.request;
 
 public class UserRequest {
@@ -48,3 +49,4 @@ public class UserRequest {
                 '}';
     }
 }
+*/

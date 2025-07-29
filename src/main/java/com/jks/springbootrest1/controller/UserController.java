@@ -1,3 +1,4 @@
+/*
 package com.jks.springbootrest1.controller;
 
 import com.jks.springbootrest1.request.UserRequest;
@@ -42,11 +43,13 @@ public class UserController {
         System.out.println("User Request:: "+userRequest);
         //Business Logic to create user
 
-        /*UserResponse userResponse=new UserResponse();
+        */
+/*UserResponse userResponse=new UserResponse();
         userResponse.setId(UUID.randomUUID().toString());
         userResponse.setCreatedAt(LocalDateTime.now());
        // return ResponseEntity.ok(userResponse);
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();*///This has nothing returned back to client as response
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();*//*
+//This has nothing returned back to client as response
 
         //Exception handling in API-customized Error response
         createUserException();
@@ -59,3 +62,4 @@ public class UserController {
         throw new NullPointerException("NPE");
     }
 }
+*/
