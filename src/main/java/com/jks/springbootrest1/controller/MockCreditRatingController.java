@@ -16,6 +16,7 @@ public class MockCreditRatingController {
 
     @PostMapping("/credit/score/check")
     public ResponseEntity<CreditRatingResponse> getScore(@RequestBody CreditRatingRequest request) {
+        System.out.println(">>>>> Controller hit");
         int score = 780; // Dummy logic
         String band = "EXCELLENT";
         double rate = 7.25;
